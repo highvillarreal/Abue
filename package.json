@@ -1,0 +1,1 @@
+{"name":"abue-care","version":"0.1.0","private":true,"description":"Local-first family care app","scripts":{"test":"node tests/smoke.cjs"},"devDependencies":{"playwright":"1.51.1"}}

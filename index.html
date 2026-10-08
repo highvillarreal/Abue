@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#163e58"><meta name="description" content="El cuidado de Abue, en un solo lugar. Registros guardados en este dispositivo.">
+  <title>Abue · Mi cuidado</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="app-header"><a class="brand" href="#today"><span class="brand-mark" aria-hidden="true">a</span><span>abue<small>MI CUIDADO</small></span></a><div class="header-right"><span id="connection">En este dispositivo</span><button id="settings" class="quiet">Ajustes</button></div></header>
+  <div class="layout"><aside><div class="profile"><span class="avatar">A</span><div><strong id="profile-name">Abue</strong><small>Su espacio de cuidado</small></div></div><nav aria-label="Navegación principal"><a href="#today" data-page="today">Hoy</a><a href="#history" data-page="history">Historial</a><a href="#consults" data-page="consults">Consultas</a><a href="#report" data-page="report">Reportes</a></nav><p class="local-note">Tus registros se quedan aquí.<br>Haz un respaldo de vez en cuando.</p></aside><main id="main" tabindex="-1"><p>Cargando tus registros…</p></main></div>
+  <dialog id="dialog"><div class="dialog-head"><h2 id="dialog-title"></h2><button id="close-dialog" class="quiet" aria-label="Cerrar ventana">Cerrar</button></div><form id="form"></form></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div><section id="print-area"></section>
+  <script type="module" src="./app.js"></script>
+</body></html>

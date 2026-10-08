@@ -1,0 +1,5 @@
+node_modules/
+test-results/
+*.local
+Abue-respaldo-*.json
+Abue-reporte-*.xlsx
